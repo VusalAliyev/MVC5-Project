@@ -1,0 +1,11 @@
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\jeyhu\source\repos\MVCProject\EntityLayer\obj\Debug\EntityLayer.pdb

@@ -1,0 +1,36 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewBag.Title = "EditWriter";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>EditWriter</h2>
+@using (Html.BeginForm("EditWriter", "Writer", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.Label("Yazar ID")
+        @Html.TextBoxFor(x=>x.WriterID,new {@class="form-control" })
+        <br />
+        @Html.Label("Yazar ID")
+        @Html.TextBoxFor(x=>x.WriterName,new {@class="form-control" })
+        <br />
+        @Html.Label("Yazar ID")
+        @Html.TextBoxFor(x=>x.WriterSurName,new {@class="form-control" })
+        <br />
+        @Html.Label("Yazar Mail")
+        @Html.TextBoxFor(x=>x.WriterMail,new {@class="form-control" })
+        <br />
+        @Html.Label("Yazar Şifrə")
+        @Html.TextBoxFor(x=>x.WriterPassword,new {@class="form-control" })
+        <br />
+        @Html.Label("Yazar Ünvanı")
+        @Html.TextBoxFor(x=>x.WriterStatus,new {@class="form-control" })
+        <br /> 
+        @Html.Label("Yazar Haqqında")
+        @Html.TextBoxFor(x=>x.WriterAbout,new {@class="form-control" })
+        <br />
+        <button class="btn btn-success">Yadda Saxla</button>
+    </div>
+}
+

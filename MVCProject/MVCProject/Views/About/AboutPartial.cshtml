@@ -1,0 +1,31 @@
+﻿
+<button class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Yeni Haqqımızda Yazı Girişi
+</button>
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Haqqımızda mətn girişi</h2>
+            </div>
+            <form method="post" action="/About/AddAbout/">
+                <div class="modal-body">
+                    <label>Haqqımızda mətn 1</label>
+                    <input type="text" name="AboutDetails1" class="form-control" />
+                    <br />
+                    <label>Haqqımızda mətn 2</label>
+                    <input type="text" name="AboutDetails1" class="form-control" />
+                    <br />
+                    <label>Haqqımızda görüntü 1</label>
+                    <input type="text" name="AboutImage1" class="form-control" />
+                    <br />
+                    <label>Haqqımızda görüntü 1</label>
+                    <input type="text" name="AboutImage1" class="form-control" />
+                    <br />
+                    <button class="btn btn-info">Yadda Saxla</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
